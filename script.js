@@ -9,7 +9,6 @@ const products = [
   { name: "Beats pill", description: "Portable Bluetooth speaker with deep bass.", price: 89.99, category: "audio", available: true, image: "b.jfif" },
   { name: "Apple iWatch", description: "Track your fitness and notifications.", price: 299.99, category: "wearables", available: true, image: "w.jfif" },
   { name: " Garmin Swim watch", description: "Monitor your daily activity and sleep.", price: 99.99, category: "wearables", available: true, image: "t.jfif" },
-    { name: "salat", description: "Monitor your daily activity and sleep.", price: 99.99, category: "salat", available: true, image: "t.jfif" },
 
 ];
 
