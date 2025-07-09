@@ -36,11 +36,13 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  
 }
 
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
+  
 }
 
 .nav-links {
