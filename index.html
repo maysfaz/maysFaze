@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ElectroShop - Electronics E-commerce</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+   
+    <div class="navbar">
+      <nav class="nav-links">
+  <a href="#" onclick="filterCategory('all')" tabindex="0">All</a>
+  <a href="#" onclick="filterCategory('tv')" tabindex="0">TVs</a>
+  <a href="#" onclick="filterCategory('phones')" tabindex="0">Smartphones</a>
+  <a href="#" onclick="filterCategory('computers')" tabindex="0">Laptops</a>
+  <a href="#" onclick="filterCategory('audio')" tabindex="0">Audio</a>
+  <a href="#" onclick="filterCategory('wearables')" tabindex="0">Wearables</a>
+    <a href="#" onclick="filterCategory('salat')" tabindex="0">salat</a>
+
+  <a href="#" onclick="showCart(); return false;">Cart</a>
+</nav>
+ <div class="logo">
+      <h1>ElectroShop</h1>
+    </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to ElectroShop</h1>
+    <p>Find the latest and best in electronics</p>
+
+    <input
+      type="search"
+      id="search-bar"
+      placeholder="Search products..."
+      oninput="searchProducts()"
+    />
+  </section>
+
+  <section class="products">
+  </section>
+
+<section id="cart-section" style="display:none; padding: 1rem;">
+  <h2>shopping cart </h2>
+  <ul id="cart-items"></ul>
+<button onclick="checkoutCart()">Checkout</button>
+</section>
+  <footer>
+    <p>&copy; 2025 ElectroShop. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
